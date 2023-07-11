@@ -1,0 +1,43 @@
+.appBar {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    position: static;
+    background-color: #f9fafb;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.justifyStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.desLogo {
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.login {
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #55ACEE;
+    margin-top: 15px;
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus:hover {
+    border-bottom: 3px solid #55ACEE;
+    border-radius: 3px;
+}

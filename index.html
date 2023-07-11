@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/leanghak-coder.png">
+    <title>Leanghak-Coder</title>
+    <link rel="stylesheet" href="./utils//scrollBar.css">
+    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./utils/appBar.css">
+    <link rel="stylesheet" href="./utils/footer.css">
+    <link rel="stylesheet" href="./utils/root.css">
+</head>
+
+<body>
+    <!-- component appbar -->
+    <div class="appBar">
+        <div class="spaceBetween">
+            <div class="justifyStart">
+                <a style="text-decoration: none;" href="./index.html">
+                    <img src="./assets/leanghak-coder.png" alt="logo" width="65px" height="65px">
+                </a>
+                <div class="desLogo">
+                    <p class="title">Leanghak Coder</p>
+                    <p>Beginners for the Youngsters</p>
+                </div>
+            </div>
+            <div style="display: flex;justify-content: flex-start;">
+                <div style="display: flex;justify-content: flex-start;margin-right: 20px;margin-top: 23px;">
+                    <a class="menus" style="text-decoration: none;  color: #25265EB3;" href="">Home</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px;  color: #25265EB3;"
+                        href="">Alumni</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px; color: #25265EB3;"
+                        href="">Studen&apos;s Project</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px; color: #25265EB3;"
+                        href="">About</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px; color: #25265EB3;"
+                        href="">Contact</a>
+                </div>
+                <button class="login" type="button">
+                    <a style="text-decoration: none; color: #FFF;" href="">Login</a>
+                </button>
+            </div>
+        </div>
+    </div><br>
+
+    <!--component container -->
+    <div class="body">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/1157091i8404A38D199675A1/image-size/large?v=v2&px=999"
+                    style="width:100%" alt="img">
+                <div class="text">UNESCO&apos; Intangible Cultural Heritage.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://asiasociety.org/files/uploads/126images/Kong%20Nay_2009(1).jpg" style="width:100%"
+                    alt="img">
+                <div class="text">ព្រឹទ្ធាចារ្យ គង់ ណៃ</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://i.pinimg.com/originals/c6/24/48/c62448afb5a67d909c1ed333e0289da2.jpg"
+                    style="width:100%" alt="img">
+                <div class="text">ព្រឹទ្ធាចារ្យ គង់ ណៃ</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+
+
+
+
+
+
+    </div><br>
+
+    <!--component footer -->
+    <footer class="footer">
+        <div style="display: flex;justify-content: flex-start; ">
+            <a style="text-decoration: none;  color: #25265EB3;" href="">Home</a>
+            <a style="text-decoration: none; margin-left: 10px;  color: #25265EB3;" href="">Alumni</a>
+            <a style="text-decoration: none; margin-left: 10px; color: #25265EB3;" href="">Studen&apos;s Project</a>
+            <a style="text-decoration: none; margin-left: 10px; color: #25265EB3;" href="">About</a>
+            <a style="text-decoration: none; margin-left: 10px; color: #25265EB3;" href="">Contact</a>
+        </div><br>
+        <p class="body"> &copy; Copyright 2021, Leanghak Coder. All Rights Reserved.</p>
+        <br>
+        <div>
+            <a style=" text-decoration: none;" href="https://t.me/leanghak_coder" target="_blank">
+                <img src="./assets/telegram.png" alt="facebook" width="20px" height="20x">
+            </a>
+            <a style="margin-left: 20px; text-decoration: none;"
+                href="https://www.facebook.com/leanghakcoder?mibextid=ZbWKwL" target="_blank">
+                <img src="./assets/facebook.png" alt="telegram" width="20px" height="20x">
+            </a>
+            <a style="margin-left: 20px; text-decoration: none;" href="https://www.youtube.com/@Leanghak-Coder"
+                target="_blank">
+                <img src="./assets/youtube.png" alt="telegram" width="20px" height="20x">
+            </a>
+        </div>
+    </footer>
+
+    <!-- bnt go to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go To Top">Top</button>
+    <!-- import js go to HTML -->
+    <script src="./js/slideShow.js"></script>
+    <script src="./js/scrollBar.js"></script>
+</body>
+
+</html>

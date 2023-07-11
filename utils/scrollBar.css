@@ -1,0 +1,15 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 8px;
+    z-index: 99;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
