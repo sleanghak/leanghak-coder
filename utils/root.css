@@ -23,7 +23,11 @@ body {
     .title {
         font-size: 23px;
     }
-    .menus{
+
+    .menus {
+        display: none;
+    }
+    #lNone {
         display: none;
     }
 }
@@ -39,8 +43,13 @@ body {
     .title {
         font-size: 30px;
     }
-    .menus{
+
+    .menus {
         display: none;
+    }
+
+    #lNone{
+        display: flex;
     }
 }
 
@@ -56,8 +65,12 @@ body {
     .title {
         font-size: 30px;
     }
-    .menus{
+
+    .menus {
         display: none;
+    }
+    #lNone {
+        display: flex;
     }
 }
 
@@ -72,7 +85,11 @@ body {
     .title {
         font-size: 30px;
     }
-    .menus{
+
+    .menus {
+        display: flex;
+    }
+    #lNone {
         display: flex;
     }
 }
@@ -88,7 +105,11 @@ body {
     .title {
         font-size: 30px;
     }
-    .menus{
+
+    .menus {
+        display: flex;
+    }
+    #lNone {
         display: flex;
     }
 }
