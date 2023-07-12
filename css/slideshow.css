@@ -16,7 +16,7 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
-    background-color: #eaeaea50;
+    background-color: #00000081;
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -40,7 +40,7 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.918);
 }
 
 /* Caption text */
