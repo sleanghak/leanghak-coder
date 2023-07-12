@@ -1,7 +1,10 @@
 .sideDisplay {
     margin-top: 15px;
 }
-
+.line{
+    background-color:#818181 ;
+    height: 1px;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -24,7 +27,6 @@
     display: block;
     transition: 0.3s;
 }
-
 .sidenav a:hover {
     color: #f1f1f1;
 }
@@ -42,6 +44,10 @@
     margin-left: 50px;
 }
 
+.copyright{
+    text-align: center;
+    color: #818181;
+}
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
