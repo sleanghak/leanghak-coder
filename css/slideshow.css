@@ -16,6 +16,7 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
+    background-color: #eaeaea50;
     cursor: pointer;
     position: absolute;
     top: 50%;

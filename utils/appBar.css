@@ -32,6 +32,10 @@
     margin-top: 13px;
 }
 
+.login:hover {
+    background-color: #349ae7;
+}
+
 .spaceBetween {
     display: flex;
     justify-content: space-between;
