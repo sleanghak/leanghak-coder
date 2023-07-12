@@ -27,8 +27,13 @@ body {
     .menus {
         display: none;
     }
-    #lNone {
+
+    .logo {
         display: none;
+    }
+
+    .sideDisplay {
+        display: flex;
     }
 }
 
@@ -48,7 +53,11 @@ body {
         display: none;
     }
 
-    #lNone{
+    .logo {
+        display: none;
+    }
+
+    .sideDisplay {
         display: flex;
     }
 }
@@ -69,7 +78,12 @@ body {
     .menus {
         display: none;
     }
-    #lNone {
+
+    .logo {
+        display: none;
+    }
+
+    .sideDisplay {
         display: flex;
     }
 }
@@ -89,8 +103,13 @@ body {
     .menus {
         display: flex;
     }
-    #lNone {
+
+    .logo {
         display: flex;
+    }
+
+    .sideDisplay {
+        display: none;
     }
 }
 
@@ -109,7 +128,12 @@ body {
     .menus {
         display: flex;
     }
-    #lNone {
+
+    .logo {
         display: flex;
+    }
+
+    .sideDisplay {
+        display: none;
     }
 }

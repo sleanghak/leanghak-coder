@@ -6,7 +6,7 @@
     border-bottom: 1px solid #eaeaea;
 }
 
-.justifyStart {
+.logo {
     display: flex;
     justify-content: flex-start;
 }

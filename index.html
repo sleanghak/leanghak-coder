@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" type="image/x-icon" href="./assets/leanghak-coder.png">
     <title>Leanghak-Coder</title>
+    <link rel="stylesheet" href="./utils/sidenav.css">
     <link rel="stylesheet" href="./utils//scrollBar.css">
     <link rel="stylesheet" href="./css/slideshow.css">
     <link rel="stylesheet" href="./utils/appBar.css">
@@ -14,18 +17,35 @@
 </head>
 
 <body>
+
     <!-- component appbar -->
     <div class="appBar">
         <div class="spaceBetween">
-            <div class="justifyStart">
+            <div class="logo">
                 <a style="text-decoration: none;" href="./index.html">
                     <img src="./assets/leanghak-coder.png" alt="logo" width="65px" height="65px">
                 </a>
                 <div class="desLogo">
-                    <p id="lNone" class="title">Leanghak Coder</p>
-                    <p id="lNone">Beginners for the Youngsters</p>
+                    <p class="title">Leanghak Coder</p>
+                    <p>Beginners for the Youngsters</p>
                 </div>
             </div>
+
+            <!--component Side navbar -->
+            <div class="sideDisplay">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a class="hover" href="#">About</a>
+                    <a class="hover" href="#">Services</a>
+                    <a class="hover" href="#">Clients</a>
+                    <a class="hover" href="#">Contact</a>
+                </div>
+                <span style="font-size:25px;cursor:pointer" onclick="openNav()" class="material-icons">
+                    menu
+                </span>
+            </div>
+
+            <!-- all menus -->
             <div style="display: flex;justify-content: flex-start;">
                 <div style="display: flex;justify-content: flex-start;margin-right: 20px;margin-top: 23px;">
                     <a class="menus" style="text-decoration: none;  color: #25265EB3;" href="">Home</a>
@@ -118,9 +138,11 @@
 
     <!-- bnt go to top -->
     <button onclick="topFunction()" id="myBtn" title="Go To Top">Top</button>
+
     <!-- import js go to HTML -->
     <script src="./js/slideShow.js"></script>
     <script src="./js/scrollBar.js"></script>
+    <script src="./js/sidenav.js"></script>
 </body>
 
 </html>
