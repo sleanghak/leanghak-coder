@@ -107,9 +107,6 @@ body {
     .menus {
         display: flex;
     }
-    .login {
-        margin-top: 20px;
-    }
 
     .logo {
         display: flex;
@@ -135,10 +132,6 @@ body {
 
     .title {
         font-size: 30px;
-    }
-
-    .login {
-        margin-top: 20px;
     }
 
     .menus {

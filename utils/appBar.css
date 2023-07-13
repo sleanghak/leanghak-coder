@@ -13,7 +13,7 @@
 
 .desLogo {
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .login {
@@ -29,6 +29,7 @@
     line-height: 20px;
     text-decoration: none;
     background-color: #55ACEE;
+    margin-top: 13px;
 }
 
 .login:hover {
