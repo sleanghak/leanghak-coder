@@ -1,0 +1,40 @@
+.respon- {
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+
+/*max-width start: 0px - 600px */
+@media only screen and (max-width: 600px) {
+    .respon- {
+        width: 100%;
+    }
+}
+
+/*min-width start 600px -768px */
+@media only screen and (min-width: 600px) {
+    .respon- {
+        width: 50%;
+    }
+}
+
+/*min-width start 768px->992px */
+@media only screen and (min-width: 768px) {
+    .respon- {
+        width: 33.33%;
+    }
+}
+
+/*min-width start 992px-1200px */
+@media only screen and (min-width: 992px) {
+    .respon- {
+        width: 33.33%;
+    }
+}
+
+/*min-width start 1200px->up */
+@media only screen and (min-width: 1200px) {
+    .respon- {
+        width: 25%;
+    }
+}
