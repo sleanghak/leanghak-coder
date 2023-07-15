@@ -1,0 +1,9 @@
+.bgInvite {
+    padding: 10px;
+    border-radius: 4px;
+    background: rgba(17, 138, 239, 0.03);
+}
+.gift-box{
+    display: flex;
+    justify-content: flex-start;
+}
