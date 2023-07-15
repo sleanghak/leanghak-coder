@@ -30,13 +30,31 @@
     color: #349ae7;
     font-size: 20px;
 }
-.padd{
+
+.padd {
     padding: 10px;
 }
-.lines{
-    background-color:#349ae7;
+
+.lines {
+    background-color: #349ae7;
     width: 20%;
     height: 3px;
     border-radius: 10px;
     margin-left: 20%;
+}
+
+.register {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.register:hover {
+    background-color: #349ae7;
 }
