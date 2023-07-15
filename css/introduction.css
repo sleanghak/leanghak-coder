@@ -1,0 +1,42 @@
+.col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    /* padding: 0 50px;
+    margin-top: 6px; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+    .col {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.des {
+    vertical-align: super;
+    margin-left: 20px;
+}
+
+.colors {
+    color: #349ae7;
+    font-size: 20px;
+}
+.padd{
+    padding: 10px;
+}
+.lines{
+    background-color:#349ae7;
+    width: 20%;
+    height: 3px;
+    border-radius: 10px;
+    margin-left: 20%;
+}

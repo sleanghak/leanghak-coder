@@ -35,6 +35,9 @@ body {
     .sideDisplay {
         display: flex;
     }
+    .lines{
+        display: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -59,6 +62,9 @@ body {
 
     .sideDisplay {
         display: flex;
+    }
+    .lines{
+        display: none;
     }
 }
 
@@ -90,6 +96,9 @@ body {
     .contain {
         margin-top: 80px;
     }
+    .lines{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -120,6 +129,10 @@ body {
         margin-top: 80px;
         margin-left: 30px;
     }
+    .lines{
+        display: flex;
+    }
+   
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -149,5 +162,8 @@ body {
     .contain {
         margin-top: 80px;
         margin-left: 100px;
+    }
+    .lines{
+        display: flex;
     }
 }
