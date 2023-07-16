@@ -1,4 +1,4 @@
-.courseCard-,
+.responCard-,
 .reviewCard- {
     width: 100%;
     padding: 5px;
@@ -17,7 +17,7 @@
 
 /*min-width start 600px -768px */
 @media only screen and (min-width: 600px) {
-    .courseCard- {
+    .responCard- {
         width: 50%;
     }
     .reviewCard- {
@@ -27,7 +27,7 @@
 
 /*min-width start 768px->992px */
 @media only screen and (min-width: 768px) {
-    .courseCard- {
+    .responCard- {
         width: 33.33%;
     }
     .reviewCard- {
@@ -37,7 +37,7 @@
 
 /*min-width start 992px-1200px */
 @media only screen and (min-width: 992px) {
-    .courseCard- {
+    .responCard- {
         width: 33.33%;
     }
     .reviewCard- {
@@ -47,7 +47,7 @@
 
 /*min-width start 1200px->up */
 @media only screen and (min-width: 1200px) {
-    .courseCard- {
+    .responCard- {
         width: 25%;
     }
     .reviewCard- {
