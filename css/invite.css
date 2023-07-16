@@ -1,4 +1,6 @@
 .bgInvite {
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
     border-radius: 4px;
     background: rgba(17, 138, 239, 0.03);
