@@ -129,3 +129,28 @@
         left: 0%;
     }
 }
+
+.pro-avatar{
+    border: 3px solid #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto ;
+}
+
+#line {
+    background-color: #f16fa1;
+    background-image: linear-gradient(83deg, #8b55f5, #f16fa1);
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+}
+.blueLine{
+    background-color: #349ae7;
+    width: 10%;
+    height: 3px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
