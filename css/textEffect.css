@@ -1,11 +1,11 @@
 .image-container {
-    background-image: url("https://tse1.mm.bing.net/th?id=OIP.FnAvnaTgUv1NK1LWywFEoQHaEo&pid=Api&P=0&h=180");
+    background-image: url("https://www.sterlingcollege.ca/wp-content/uploads/2020/03/software-development-header.jpg");
     background-size: cover;
     position: relative;
     height: 300px;
 }
 
-.text {
+.effect {
     background-color: white;
     color: black;
     font-size: 10vw;

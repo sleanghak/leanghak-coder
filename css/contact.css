@@ -89,3 +89,10 @@ input[type=email]:focus {
 .button:hover {
     background-color: #349ae7;
 }
+#line {
+    background-color: #f16fa1;
+    background-image: linear-gradient(83deg, #8b55f5, #f16fa1);
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+}

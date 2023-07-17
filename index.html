@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/courseCard.css">
     <link rel="stylesheet" href="./utils/sidenav.css">
     <link rel="stylesheet" href="./utils//scrollBar.css">
-    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./css/textEffect.css">
     <link rel="stylesheet" href="./utils/appBar.css">
     <link rel="stylesheet" href="./utils/footer.css">
     <link rel="stylesheet" href="./utils/root.css">
@@ -103,39 +103,15 @@
                 </button>
             </div>
         </div>
-    </div><br>
+    </div>
+
+    <!-- import component header -->
+    <div class="image-container">
+        <div class="effect">HOME</div>
+    </div>
 
     <!--component container -->
     <div class="body">
-        <!-- import component slideshow-container -->
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="./assets/posters/home-sceen.png" style="width:100%" alt="img">
-                <div style="color: #25265EB3;" class="text">Learn the code in Khmer</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="./assets/posters/introduction.png" style="width:100%" alt="img">
-                <div style="color: #25265EB3;" class="text">Learn the code in Khmer</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="./assets/posters/Learn-leanghak-coder.png" style="width:100%" alt="img">
-                <div style="color: #25265EB3;" class="text">Learn the code in Khmer</div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
 
         <!-- import component line -->
         <br>
@@ -566,14 +542,14 @@
                     <p>Enroll for as many courses as you like for FREE with Leanghak Coder.</p>
                 </div>
             </div>
-           <div style="margin-top: 20px;">
-            <a style="color: #55ACEE;text-decoration: none;" href="./html/invite.html">
-                <span>INVITE NOW</span>
-                <span style="vertical-align: bottom;" class="material-icons">
-                    arrow_forward
-                </span>
-            </a>
-           </div>
+            <div style="margin-top: 20px;">
+                <a style="color: #55ACEE;text-decoration: none;" href="./html/invite.html">
+                    <span>INVITE NOW</span>
+                    <span style="vertical-align: bottom;" class="material-icons">
+                        arrow_forward
+                    </span>
+                </a>
+            </div>
         </div><br>
 
         <p class="title" style="text-transform: uppercase;">Frequently Asked Questions</p><br>
@@ -637,7 +613,6 @@
     </button>
 
     <!-- import js go to HTML -->
-    <script src="./js/slideShow.js"></script>
     <script src="./js/scrollBar.js"></script>
     <script src="./js/sidenav.js"></script>
     <script src="./js/accordion.js"></script>
