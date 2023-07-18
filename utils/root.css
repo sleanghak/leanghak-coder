@@ -38,6 +38,9 @@ body {
     .lines{
         display: none;
     }
+    .homeSceen{
+        display: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -64,6 +67,9 @@ body {
         display: flex;
     }
     .lines{
+        display: none;
+    }
+    .homeSceen{
         display: none;
     }
 }
@@ -99,6 +105,9 @@ body {
     .lines{
         display: none;
     }
+    .homeSceen{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -130,6 +139,9 @@ body {
         margin-left: 30px;
     }
     .lines{
+        display: flex;
+    }
+    .homeSceen{
         display: flex;
     }
    
@@ -164,6 +176,9 @@ body {
         margin-left: 100px;
     }
     .lines{
+        display: flex;
+    }
+    .homeSceen{
         display: flex;
     }
 }
