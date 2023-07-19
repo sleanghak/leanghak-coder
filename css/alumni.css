@@ -69,12 +69,12 @@ body {
     border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 } */
 
-#timeline h1 {
+/* #timeline h1 {
     text-align: center;
     font-size: 3rem;
     font-weight: 200;
     margin-bottom: 20px;
-}
+} */
 
 #timeline p.leader {
     text-align: center;
@@ -124,14 +124,14 @@ body {
 
 @media (min-width: 480px) {
     #timeline .demo-card {
-        max-width: 60%;
+        max-width: 100%;
         box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
     }
 }
 
 @media (min-width: 720px) {
     #timeline .demo-card {
-        max-width: 40%;
+        max-width: 50%;
     }
 }
 
@@ -287,4 +287,12 @@ body {
 
 #timeline .demo-card--step5 .head::after {
     border-color: #46b8e9;
+}
+
+#line {
+    background-color: #f16fa1;
+    background-image: linear-gradient(83deg, #8b55f5, #f16fa1);
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
 }
