@@ -112,6 +112,21 @@
             <div id="line"></div>
         </div><br>
 
+        <p style="text-transform: uppercase;text-align: center;" class="title">Share Your Invite</p><br>
+        <div class="backColorCopy">
+            <div class="center">
+                <input class="inputCopy" type="text" value="https://sleanghak.github.io/leanghak-coder/" id="myInput">
+                <button onclick="handleCopyText()" style="cursor: pointer;margin-left: 10px;">
+                    <span title="copied the text" class="material-icons copyIocn">
+                        content_copy
+                    </span>
+                </button>
+
+                <button style="cursor: pointer;margin-left: 10px;" onclick="shareOnFacebook()"><img title="share on facebook" style="border-radius: 50px;" src="./../assets/face-icon.png" width="20px" alt=""></button>
+            </div>
+
+        </div><br>
+
         <p class="title" style="text-transform: uppercase;text-align: center;"> How it works?</p><br>
         <div class="responCard-">
             <div class="card">
@@ -129,7 +144,7 @@
                 <div class="backgroundColor">
                     <img class="avatar" src="https://www.simplilearn.com/ice9/refer/2.svgz" alt="avatar">
                 </div>
-                <div >
+                <div>
                     <p>Get atleast 2 friends to enroll in a course</p>
                 </div>
             </div>
@@ -140,7 +155,7 @@
                 <div class="backgroundColor">
                     <img class="avatar" src="https://www.simplilearn.com/ice9/refer/3.svgz" alt="avatar">
                 </div>
-                <div >
+                <div>
                     <p>Once your friends enroll they get 4 FREE courses</p>
                 </div>
             </div>
@@ -151,7 +166,7 @@
                 <div class="backgroundColor">
                     <img class="avatar" src="https://www.simplilearn.com/ice9/refer/4.svgz" alt="avatar">
                 </div>
-                <div >
+                <div>
                     <p>You then can enroll into as many FREE courses as you like</p>
                 </div>
             </div>
@@ -230,6 +245,8 @@
     <script src="./../js/sidenav.js"></script>
     <script src="./../js/scrollBar.js"></script>
     <script src="./../js/accordion.js"></script>
+    <script src="./../js/copyText.js"></script>
+    <script src="./../js/shareOnFacebook.js"></script>
 </body>
 
 </html>

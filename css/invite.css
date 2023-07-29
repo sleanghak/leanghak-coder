@@ -5,14 +5,36 @@
     border-radius: 4px;
     background: rgba(17, 138, 239, 0.03);
 }
-.gift-box{
+
+.gift-box {
     display: flex;
     justify-content: flex-start;
 }
+
 #line {
     background-color: #f16fa1;
     background-image: linear-gradient(83deg, #8b55f5, #f16fa1);
     width: 100%;
     height: 3px;
     border-radius: 10px;
+}
+
+.backColorCopy {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .1);
+    padding: 24px 14px;
+    color: #25265EB3;
+    background-color: rgba(17, 138, 239, 0.03);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.inputCopy {
+    border: 1px solid #e2edf9;
+    box-shadow: 0px 3px 10px rgba(40, 109, 245, .1);
+    padding: 8px;
+    background-color: #FFF;
+    border-radius: 5px;
 }
