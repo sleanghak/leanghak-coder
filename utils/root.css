@@ -5,12 +5,15 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    line-height: 1.5;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #25265EB3;
+}
+
+.body {
+    line-height: 1.5;
 }
 
 /* Extra small devices (phones, 600px and down) */
