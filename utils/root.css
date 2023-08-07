@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html {
+    line-height: 1.4;
+}
+
 * {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -35,10 +39,12 @@ body {
     .sideDisplay {
         display: flex;
     }
-    .lines{
+
+    .lines {
         display: none;
     }
-    .homeSceen{
+
+    .homeSceen {
         display: none;
     }
 }
@@ -66,10 +72,12 @@ body {
     .sideDisplay {
         display: flex;
     }
-    .lines{
+
+    .lines {
         display: none;
     }
-    .homeSceen{
+
+    .homeSceen {
         display: none;
     }
 }
@@ -102,10 +110,12 @@ body {
     .contain {
         margin-top: 80px;
     }
-    .lines{
+
+    .lines {
         display: none;
     }
-    .homeSceen{
+
+    .homeSceen {
         display: none;
     }
 }
@@ -138,10 +148,12 @@ body {
         margin-top: 80px;
         margin-left: 30px;
     }
-    .lines{
+
+    .lines {
         display: flex;
     }
-    .homeSceen{
+
+    .homeSceen {
         display: flex;
     }
 }
@@ -174,10 +186,12 @@ body {
         margin-top: 80px;
         margin-left: 100px;
     }
-    .lines{
+
+    .lines {
         display: flex;
     }
-    .homeSceen{
+
+    .homeSceen {
         display: flex;
     }
 }
