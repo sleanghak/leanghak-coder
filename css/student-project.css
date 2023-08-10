@@ -5,3 +5,22 @@
     height: 3px;
     border-radius: 10px;
 }
+
+.profile-student {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.alumni {
+    color: #7665A0;
+}
+
+.student-name {
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: 700;
+}

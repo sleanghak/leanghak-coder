@@ -47,6 +47,10 @@ body {
     .homeSceen {
         display: none;
     }
+    .alumni{
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
