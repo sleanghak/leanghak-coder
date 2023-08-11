@@ -1,8 +1,13 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .responCard-,
 .reviewCard- {
     width: 100%;
     padding: 5px;
-    float: left;
+    /* float: left; */
 }
 
 /*max-width start: 0px - 600px */
@@ -10,6 +15,7 @@
     .courseCard- {
         width: 100%;
     }
+
     .reviewCard- {
         width: 100%;
     }
@@ -20,6 +26,7 @@
     .responCard- {
         width: 50%;
     }
+
     .reviewCard- {
         width: 50%;
     }
@@ -30,6 +37,7 @@
     .responCard- {
         width: 33.33%;
     }
+
     .reviewCard- {
         width: 50%;
     }
@@ -40,6 +48,7 @@
     .responCard- {
         width: 33.33%;
     }
+
     .reviewCard- {
         width: 33.33%;
     }
@@ -50,6 +59,7 @@
     .responCard- {
         width: 25%;
     }
+
     .reviewCard- {
         width: 33.33%;
     }
