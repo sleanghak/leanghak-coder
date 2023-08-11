@@ -47,9 +47,20 @@ body {
     .homeSceen {
         display: none;
     }
-    .alumni{
+
+    .alumni {
         text-align: center;
         margin-top: 20px;
+    }
+
+    .title-project {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .btn-2{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -122,6 +133,8 @@ body {
     .homeSceen {
         display: none;
     }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -160,6 +173,7 @@ body {
     .homeSceen {
         display: flex;
     }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -198,4 +212,5 @@ body {
     .homeSceen {
         display: flex;
     }
+
 }
