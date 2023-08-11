@@ -1,0 +1,13 @@
+.card-student-team {
+   text-align: center;
+}
+
+.student-team {
+    border: 3px solid #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+}
