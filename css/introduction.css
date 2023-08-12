@@ -1,4 +1,6 @@
-.col {
+.col,
+.respon-video,
+.respon-course {
     float: left;
     width: 50%;
     margin: auto;
@@ -19,7 +21,7 @@
         width: 100%;
         margin-top: 0;
     }
-   
+
 }
 
 .des {

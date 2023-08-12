@@ -58,9 +58,18 @@ body {
         justify-content: center;
         margin-top: 20px;
     }
-    .btn-2{
+
+    .btn-2 {
         display: flex;
         justify-content: space-between;
+    }
+
+    .respon-course {
+        width: 100%;
+    }
+
+    .respon-video {
+        width: 100%;
     }
 }
 
@@ -94,6 +103,14 @@ body {
 
     .homeSceen {
         display: none;
+    }
+
+    .respon-course {
+        width: 50%;
+    }
+
+    .respon-video {
+        width: 50%;
     }
 }
 
@@ -134,7 +151,13 @@ body {
         display: none;
     }
 
+    .respon-course {
+        width: 70%;
+    }
 
+    .respon-video {
+        width: 30%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -174,6 +197,16 @@ body {
         display: flex;
     }
 
+    .respon-course {
+        width: 75%;
+    }
+
+    .respon-video {
+        width: 25%;
+    }
+    .video{
+        margin-top: -150px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -213,4 +246,11 @@ body {
         display: flex;
     }
 
+    .respon-course {
+        width: 75%;
+    }
+
+    .respon-video {
+        width: 25%;
+    }
 }
