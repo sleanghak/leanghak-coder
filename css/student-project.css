@@ -140,16 +140,16 @@ img {
     cursor: pointer;
     border: none;
 }
-.share:hover{
+
+.share:hover {
     background-color: #04AA6D;
 }
 
 .visit {
-    width: 100%;
-    display: inline;
+    display: flex;
     background-color: #04AA6D;
     color: white;
-    padding: 10px;
+    padding: 5px 50px 5px 50px;
     border-radius: 20px;
     font-size: 11px;
     cursor: pointer;
