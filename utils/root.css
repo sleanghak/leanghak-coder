@@ -7,6 +7,10 @@
     margin: 0px;
 }
 
+.yellows {
+    color: #FFC107;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #25265EB3;
@@ -71,13 +75,16 @@ body {
     .respon-video {
         width: 100%;
     }
-    .video{
+
+    .video {
         display: none;
     }
-    .respon-video-flex{
+
+    .respon-video-flex {
         display: flex;
     }
-    .video-respon{
+
+    .video-respon {
         margin-bottom: 10px;
     }
 }
@@ -121,7 +128,8 @@ body {
     .respon-video {
         width: 50%;
     }
-    .respon-video-flex{
+
+    .respon-video-flex {
         display: none;
     }
 }
@@ -170,7 +178,8 @@ body {
     .respon-video {
         width: 40%;
     }
-    .respon-video-flex{
+
+    .respon-video-flex {
         display: none;
     }
 }
@@ -219,10 +228,12 @@ body {
     .respon-video {
         width: 30%;
     }
-    .video{
+
+    .video {
         margin-top: -150px;
     }
-    .respon-video-flex{
+
+    .respon-video-flex {
         display: none;
     }
 }
@@ -271,7 +282,8 @@ body {
     .respon-video {
         width: 30%;
     }
-    .respon-video-flex{
+
+    .respon-video-flex {
         display: none;
     }
 }
