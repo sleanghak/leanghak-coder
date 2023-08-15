@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" type="image/x-icon" href="./../../assets//leanghak-coder.png">
     <title>Leanghak-Coder</title>
+    <link rel="stylesheet" href="./../../css/courseCard.css">
+    <link rel="stylesheet" href="./../../utils/responsive.css">
+    <link rel="stylesheet" href="./../../css/reviewCard.css">
+    <link rel="stylesheet" href="./../../css/invite.css">
     <link rel="stylesheet" href="./../../utils/accordion.css">
     <link rel="stylesheet" href="./../../css/course.css">
     <link rel="stylesheet" href="./../../css/header-course.css">
@@ -347,13 +351,14 @@
             </div>
         </div>
 
+        <!-- import components Course content -->
         <p class="title" style="text-transform: uppercase;">Course content</p>
         <button class="accordion">Quick introduction - HTML</button>
         <div class="panel">
             <p style="padding: 5px;">
             <ul>
                 <li>Welcome to introduction to HTML Web Development</li>
-                <li>Welcome to introduction to HTML Web Development</li>
+                <li>Downloadable Course Resources</li>
             </ul>
             </p>
         </div>
@@ -449,7 +454,7 @@
         <div class="panel">
             <p style="padding: 5px;">
             <ul>
-                <li>Text Based Links with the HTML &lt;a&gt; Tag                </li>
+                <li>Text Based Links with the HTML &lt;a&gt; Tag </li>
                 <li>Turn an Image into a Link</li>
                 <li>Target a New Browser Tab using the TARGET Attribute of the &lt;a&gt; tag</li>
                 <li>Creating Email Links</li>
@@ -467,7 +472,7 @@
         <div class="panel">
             <p style="padding: 5px;">
             <ul>
-                <li>Basics of HTML Tables     </li>
+                <li>Basics of HTML Tables </li>
                 <li>HTML Table Examples</li>
                 <li>Creating a Basic HTML Table</li>
                 <li>BONUS - CSS- Adding Borders to HTML Tables</li>
@@ -485,7 +490,7 @@
         <div class="panel">
             <p style="padding: 5px;">
             <ul>
-                <li>Introduction to HTML Forms     </li>
+                <li>Introduction to HTML Forms </li>
                 <li>Introduction to the HTML FORM tag</li>
                 <li>Creating HTML Input Text Controls</li>
                 <li>Creating HTML Form Labels</li>
@@ -500,20 +505,227 @@
                 <li>Quiz #9 - HTML Forms</li>
             </ul>
             </p>
+        </div><br /><br />
+
+        <!-- import components Invite your friends -->
+        <div class="bgInvite">
+            <div class="gift-box">
+                <img src="./../../assets/gift-box.png" alt="gift" width="70px">
+                <div style="margin-left: 10px;">
+                    <h4 style="text-transform: uppercase;">Invite your friends </h4><br>
+                    <p>Enroll for as many courses as you like for FREE with Leanghak Coder.</p>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <a style="color: #55ACEE;text-decoration: none;" href="./../../html/invite.html">
+                    <span>INVITE NOW</span>
+                    <span style="vertical-align: bottom;" class="material-icons">
+                        arrow_forward
+                    </span>
+                </a>
+            </div>
+        </div><br>
+
+        <!--import component Learners Reviews -->
+        <p class="title" style="text-transform: uppercase;">Learners Reviews</p><br>
+
+        <div class="row">
+            <div class="reviewCard-">
+                <div class="card" style="height: 235px;">
+                    <div class="background">
+                        <div class="desProfile">
+                            <img class="avatar"
+                                src="https://yt3.ggpht.com/FetajXS495liw1IE7PAVgLWBofkeByfnEvjk5pw1w1gsl89SoKsvHjZsA8oc4Mo1-5XV4bhdeM4jIw=s640-c-fcrop64=1,00002000ffffdfff-nd-v1"
+                                alt="avatar">
+                            <a href="https://www.facebook.com/profile.php?id=100046612111709&mibextid=LQQJ4d"
+                                target="_blank">
+                                <img class="faceIcon" src="./../../assets/face-icon.png" alt="facebook">
+                            </a>
+                            <div class="name">
+                                <h4 style="color: white;margin-top: -2px;"><b>Born Chhivlik</b></h4>
+                                <h4 style="color: #FFC107;margin-top: 11px;"><b>Web Development</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <p>Have new experience in coding and the teacher always helps to explain when we have a problem
+                            and
+                            the teacher is friendly and the teacher explains quickly Understand.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviewCard-">
+                <div class="card" style="height: 235px;">
+                    <div class="background">
+                        <div class="desProfile">
+                            <img class="avatar"
+                                src="https://yt3.ggpht.com/5qHfgEX416zMg9E_3MqMAg_KLnYZI1thjbA2yF-3LkXeNk-8BAxnS_thBBTsM4dCDmpZoccqJBlqPw=s640-c-fcrop64=1,00002000ffffdfff-nd-v1"
+                                alt="avatar">
+                            <a href="https://web.facebook.com/nh.lay.5070/" target="_blank">
+                                <img class="faceIcon" src="./../../assets/face-icon.png" alt="facebook">
+                            </a>
+                            <div class="name">
+                                <h4 style="color: white;margin-top: -2px;"><b>Lhon Englay</b></h4>
+                                <h4 style="color: #FFC107;margin-top: 11px;"><b>Web Development</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <p>Gaining limited knowledge in developing dream goals will be the first step I am taking to
+                            become
+                            a coder.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviewCard-">
+                <div class="card" style="height: 235px;">
+                    <div class="background">
+                        <div class="desProfile">
+                            <img class="avatar"
+                                src="https://yt3.ggpht.com/3VnygV1SdOLJn5Z7VROljoWHiu_XDvpiTz0uHa-ouzBE6MFno97jBakZaJLbdaAcAHB8gg3e8wLG=s640-c-fcrop64=1,00002000ffffdfff-nd-v1"
+                                alt="avatar">
+                            <a href="https://www.facebook.com/profile.php?id=100069076393277" target="_blank">
+                                <img class="faceIcon" src="./../../assets/face-icon.png" alt="facebook">
+                            </a>
+                            <div class="name">
+                                <h4 style="color: white;margin-top: -2px;"><b>Pheap Sopheak</b></h4>
+                                <h4 style="color: #FFC107;margin-top: 11px;"><b>Web Development</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <p>Getting new experience with code, knowing about code writing, gaining more knowledge, and
+                            getting good explanation and detail with lessons I recommend you learn with Leanghak Coder
+                            if you want new experience and more knowledge.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><br />
+
+        <!-- import component Related Courses -->
+        <p class="title" style="text-transform: uppercase;">Related Courses</p><br/>
+
+
+        <div class="row">
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="#">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="#">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="#">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="#">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
     </div><br>
 
     <!--component footer -->

@@ -32,3 +32,16 @@
     display: flex;
     justify-content: flex-start;
 }
+
+.colorText {
+    color: #25265EB3;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    color: #FFC107;
+}
