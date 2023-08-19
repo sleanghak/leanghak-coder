@@ -132,6 +132,9 @@ body {
     .respon-video-flex {
         display: none;
     }
+    .padding-left {
+        padding-left: 20px;
+    }
 }
 
 
@@ -181,6 +184,9 @@ body {
 
     .respon-video-flex {
         display: none;
+    }
+    .padding-left {
+        padding-left: 20px;
     }
 }
 
@@ -235,6 +241,9 @@ body {
 
     .respon-video-flex {
         display: none;
+    }
+    .padding-left {
+        padding-left: 20px;
     }
 }
 
