@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/x-icon" href="./../../assets//leanghak-coder.png">
+    <title>Leanghak-Coder</title>
+    <link rel="stylesheet" href="./../../css/courseCard.css">
+    <link rel="stylesheet" href="./../../utils/responsive.css">
+    <link rel="stylesheet" href="./../../css/reviewCard.css">
+    <link rel="stylesheet" href="./../../css/invite.css">
+    <link rel="stylesheet" href="./../../utils/accordion.css">
+    <link rel="stylesheet" href="./../../css/course.css">
+    <link rel="stylesheet" href="./../../css/header-course.css">
+    <link rel="stylesheet" href="./../../css/introduction.css">
+    <link rel="stylesheet" href="./../../utils/scrollBar.css">
+    <link rel="stylesheet" href="./../../utils/sidenav.css">
+    <link rel="stylesheet" href="./../../utils/appBar.css">
+    <link rel="stylesheet" href="./../../utils/footer.css">
+    <link rel="stylesheet" href="./../../utils/root.css">
+</head>
+
+<body>
+    <!-- component appbar -->
+    <div class="appBar">
+        <div class="spaceBetween">
+            <div class="logo">
+                <a style="text-decoration: none;" href="./../../index.html">
+                    <img src="./../../assets/leanghak-coder.png" alt="logo" width="65px" height="65px">
+                </a>
+                <div class="desLogo">
+                    <p class="title">Leanghak Coder</p>
+                    <p>Beginners for the Youngsters</p>
+                </div>
+            </div>
+
+            <!--component Side navbar -->
+            <div class="sideDisplay">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="line"></div><br>
+                    <!-- all menus in sider drawer -->
+                    <a class="hover" href="./../../index.html">
+                        <span style="vertical-align: text-bottom;" class="material-icons">
+                            home
+                        </span>
+                        <span style="margin-left: 20px;"> Home</span>
+                    </a>
+                    <a class="hover" href="./../studen-project.html">
+                        <span style="vertical-align: text-bottom;" class="material-icons">
+                            group
+                        </span>
+                        <span style="margin-left: 20px;"> Alumni</span>
+                    </a>
+                    <a class="hover" href="./../studen-project.html">
+                        <span style="vertical-align: text-bottom;" class="material-icons">
+                            school
+                        </span>
+                        <span style="margin-left: 20px;"> Studen&apos;s Project</span>
+                    </a>
+                    <a class="hover" href="./../about.html">
+                        <span style="vertical-align: text-bottom;" class="material-icons">
+                            info
+                        </span>
+                        <span style="margin-left: 20px;"> About</span>
+                    </a>
+                    <a class="hover" href="./../contact.html">
+                        <span style="vertical-align: text-bottom;" class="material-icons">
+                            recent_actors
+                        </span>
+                        <span style="margin-left: 20px;"> Contact</span>
+                    </a>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p class="body copyright" style="bottom: 100px;"> Leanghak Coder &copy; 2023</p>
+                </div>
+                <span style="text-decoration: none; font-size:25px;cursor:pointer;" onclick="openNav()"
+                    class="material-icons">
+                    menu
+                </span>
+            </div>
+
+            <!-- all menus in navbar-->
+            <div style="display: flex;justify-content: flex-start;">
+                <div style="display: flex;justify-content: flex-start;margin-right: 20px;margin-top: 23px;">
+                    <a class="menus" style="text-decoration: none;  color: #25265EB3;"
+                        href="./../../index.html">Home</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px;  color: #25265EB3;"
+                        href="./../alumni.html">Alumni</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px; color: #25265EB3;"
+                        href="./../studen-project.html">Studen&apos;s Project</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px; color: #25265EB3;"
+                        href="./../about.html">About</a>
+                    <a class="menus" style="text-decoration: none; margin-left: 15px; color: #25265EB3;"
+                        href="./../contact.html">Contact</a>
+                </div>
+                <!-- button login in navbar -->
+                <button class="login" type="button">
+                    <a style="text-decoration: none; color: #FFF;" href="./../auth/login.html">Login</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- components for header courses -->
+
+    <div class="header">
+        <p class="title">Learn HTML : Fundamental</p><br />
+        <p>Course to Learn HTML Basics</p><br />
+
+        <div class="star-center">
+            <div style="margin-top: 3px;">
+                <span class="material-icons icons ">
+                    star
+                </span>
+                <span class="stars"> <b>4.8</b></span>
+            </div>
+
+            <span style="margin-top: 3px;margin-left: 10px;">•</span>
+
+            <span class="material-icons" style="margin-top: 3px;margin-left: 10px;">
+                alarm_on
+            </span>
+            <p style=" margin-top: 3px;margin-left:5px;">28-Sep-2021</p>
+
+            <span style="margin-top: 3px;margin-left:10px;">•</span>
+            <p style="margin-top: 3px;margin-left:10px;">Beginner</p>
+        </div><br>
+        <p>Build an important foundation for creating the structure and content for web pages.</p><br />
+
+    </div><br />
+
+    <!--component container -->
+    <div class="body">
+
+        <div class="respon-video-flex">
+            <div class="video-respon">
+                <video style="border-radius: 5px;" width="100%" controls>
+                    <source src="./../../assets/videos/video1421335379.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
+
+                <div class="container"><br />
+                    <a style="width: 100%;" class="join-course" href="https://t.me/SEIREY_Leanghak" target="_blank">
+                        Join Course
+                    </a><br />
+                    <p>This Course Includes </p><br />
+
+                    <div class="hours">
+                        <span class="material-icons">
+                            hourglass_empty
+                        </span>
+                        <div style="margin-left: 10px;margin-top: -10px;">
+                            <b>10 Hours</b>
+                            <p>Of self-paced video lessons</p>
+                        </div>
+                    </div><br />
+
+                    <div class="hours">
+                        <span class="material-icons">
+                            workspace_premium
+                        </span>
+                        <div style="margin-left: 10px;margin-top: -10px;">
+                            <b>Completion Certificate</b>
+                            <p>Receive rewards at the end of the course on the website</p>
+                        </div>
+                    </div><br />
+
+                    <div class="hours">
+                        <span class="material-icons">
+                            event_available
+                        </span>
+                        <div style="margin-left: 10px;margin-top: -10px;">
+                            <b>Permanent access</b>
+                            <p>To your Course</p>
+                        </div>
+                    </div>
+
+                </div><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="respon-course">
+                <!-- component desc courses-->
+                <p class="title" style="text-transform: uppercase;">What you&apos;ll learn</p>
+                <div class="col">
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Can Create the Complete Structure of the Website</span>
+                    </div>
+
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Can Work on projects for Creating Websites</span>
+                    </div>
+
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">After the course you will be able to build ANY website you want.</span>
+                    </div>
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Learn professional developer best practices.</span>
+                    </div>
+                </div>
+
+                <div class="col">
+
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Will be able to master Complete Html</span>
+                    </div>
+
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Can also create Complex Structure of Html for WebApps</span>
+                    </div>
+
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Build web development projects for your portfolio, ready to apply for
+                            junior
+                            developer jobs.</span>
+                    </div>
+
+                    <div class="padd">
+                        <span class="material-icons colors">
+                            task_alt
+                        </span>
+                        <span class="des">Work as a freelance web developer.</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- component video -->
+            <div class="respon-video">
+
+                <div class="video">
+                    <video style="border-radius: 5px;" width="100%" controls>
+                        <source src="./../../assets/videos/video1421335379.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                    </video>
+
+                    <div class="container"><br />
+                        <a style="width: 100%;" class="join-course" href="https://t.me/SEIREY_Leanghak" target="_blank">
+                            Join Course
+                        </a><br />
+                        <p>This Course Includes </p><br />
+
+                        <div class="hours">
+                            <span class="material-icons">
+                                hourglass_empty
+                            </span>
+                            <div style="margin-left: 10px;margin-top: -10px;">
+                                <b>10 Hours</b>
+                                <p>Of self-paced video lessons</p>
+                            </div>
+                        </div><br />
+
+                        <div class="hours">
+                            <span class="material-icons">
+                                workspace_premium
+                            </span>
+                            <div style="margin-left: 10px;margin-top: -10px;">
+                                <b>Completion Certificate</b>
+                                <p>Receive rewards at the end of the course on the website</p>
+                            </div>
+                        </div><br />
+
+                        <div class="hours">
+                            <span class="material-icons">
+                                event_available
+                            </span>
+                            <div style="margin-left: 10px;margin-top: -10px;">
+                                <b>Permanent access</b>
+                                <p>To your Course</p>
+                            </div>
+                        </div>
+
+                    </div><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p class="title" style="text-transform: uppercase;">Who this course is for</p>
+
+                <div class="padd">
+                    <span class="material-icons colors">
+                        task_alt
+                    </span>
+                    <span class="des">Anyone that wants to learn HTML Web Development</span>
+                </div>
+
+                <div class="padd">
+                    <span class="material-icons colors">
+                        task_alt
+                    </span>
+                    <span class="des">Anyone that wants to learn the how to create and/or edit websites</span>
+                </div>
+
+                <div class="padd">
+                    <span class="material-icons colors">
+                        task_alt
+                    </span>
+                    <span class="des">Anyone looking to build a solid foundation with HTML Web Development</span>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <p class="title" style="text-transform: uppercase;">Requirements</p>
+
+                <div class="padd">
+                    <span class="material-icons colors">
+                        task_alt
+                    </span>
+                    <span class="des">No Prior HTML Knowledge Needed</span>
+                </div>
+
+                <div class="padd">
+                    <span class="material-icons colors">
+                        task_alt
+                    </span>
+                    <span class="des">Access to a Computer (Windows, MAC)</span>
+                </div>
+
+                <div class="padd">
+                    <span class="material-icons colors">
+                        task_alt
+                    </span>
+                    <span class="des">No Need to Buy Additional Software to Learn HTML</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- import components Course content -->
+        <p class="title" style="text-transform: uppercase;">Course content</p>
+        <button class="accordion">Quick introduction - HTML</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Welcome to introduction to HTML Web Development</li>
+                <li>Downloadable Course Resources</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Getting Setup - HTML</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Pick Your HTML Editor</li>
+                <li>Setting Up a Folder Structure</li>
+                <li>Launching on Windows</li>
+                <li>MAC USERS - Launching MAC TextEdit (DOWNLOAD)</li>
+                <li>HTML Web Development Resources (Download)</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Basic of HTML Elements</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Viewing HTML Tags Page Source</li>
+                <li>Breaking Down an HTML Tag</li>
+                <li>Common HTML Tags</li>
+                <li>Adding Tag Attributes to HTML Tags</li>
+                <li>HTML Tags Resource (Download)</li>
+                <li>QUIZ #1 - HTML Tags and Attributes</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Basic of Creating an HTML Page</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Setting Up a Basic HTML Page</li>
+                <li>Using the HTML TITLE Tag </li>
+                <li>BONUS - HTML - Browser FAVICON</li>
+                <li>Adding Text to the HTML BODY Tag</li>
+                <li>Inserting HTML Comments </li>
+                <li>QUIZ #2 - Creating a Basic HTML Page</li>
+                <li>Exercise #1 - Creating a Basic HTML Page</li>
+                <li>Exercise #2 - Share Your Progress in the QA Section (SNIPPING TOOL)</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Working with HTML PARAGRAPH and HEADING Tags</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Adding HTML Paragraphs</li>
+                <li>Creating Line Breaks with the BREAK Tag</li>
+                <li>BONUS - CSS - Adding Style to a Paragraph</li>
+                <li>Working with HTML HEADING Tags</li>
+                <li>HEADING Tag Good Practices</li>
+                <li>QUIZ #4 - HTML Paragraph and Heading Tags </li>
+                <li>Exercise #3 - Using HTML Paragraph and Heading Tags</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Working with HTML &lt;img&gt; tag to Insert Images</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Inserting Images with the HTML &lt;IMG&gt; Tag</li>
+                <li>HTML IMAGE Tag ALT Attribute </li>
+                <li>HTML IMAGE tag Width and Height Attributes</li>
+                <li>BONUS - CSS - Image Formatting </li>
+                <li>HTML Image References in another Folder</li>
+                <li>QUIZ #5 - HTML &lt;IMG&gt; Tag</li>
+                <li>Exercise #4 - Working with Images</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Working with HTML Ordered and Unordered Lists</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Creating an Unordered HTML List</li>
+                <li>HTML Unordered List Sub-bullets</li>
+                <li>Creating Ordered HTML List</li>
+                <li>BONUS - CSS - Formatting HTML Lists</li>
+                <li>QUIZ #6 - HTML Lists</li>
+                <li>Exercise #5 - Adding Lists to an HTML Page</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Adding HTML Link</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Text Based Links with the HTML &lt;a&gt; Tag </li>
+                <li>Turn an Image into a Link</li>
+                <li>Target a New Browser Tab using the TARGET Attribute of the &lt;a&gt; tag</li>
+                <li>Creating Email Links</li>
+                <li>Creating Phone Number Links</li>
+                <li>HTML Anchor Links using the ID Attribute (Bookmarks)</li>
+                <li>BONUS - CSS - Formatting HTML Links</li>
+                <li>BONUS - HTML Colors (Download)</li>
+                <li>BONUS - JavaScript - Execute JavaScript on Link Click</li>
+                <li>QUIZ #7 - HTML Links</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Creating HTML Tables</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Basics of HTML Tables </li>
+                <li>HTML Table Examples</li>
+                <li>Creating a Basic HTML Table</li>
+                <li>BONUS - CSS- Adding Borders to HTML Tables</li>
+                <li>HTML Table with Multiple Columns and Rows</li>
+                <li>HTML Table Headers</li>
+                <li>HTML Table -- TD Attribute - Colspan</li>
+                <li>BONUS - CSS - Additional Table Formatting</li>
+                <li>Quiz #8 - HTML Tables</li>
+                <li>Exercise #7 - Creating HTML Tables</li>
+            </ul>
+            </p>
+        </div>
+
+        <button class="accordion">Creating and Working with HTML Forms</button>
+        <div class="panel">
+            <p style="padding: 5px;">
+            <ul>
+                <li>Introduction to HTML Forms </li>
+                <li>Introduction to the HTML FORM tag</li>
+                <li>Creating HTML Input Text Controls</li>
+                <li>Creating HTML Form Labels</li>
+                <li>Exercise #8 - Adding Text Controls to the HTML Form</li>
+                <li>Working with HTML TEXTAREA tags</li>
+                <li>Creating HTML Input Radio Controls</li>
+                <li>Input Radio Attributes</li>
+                <li>Adding an HTML Form Button to Submit Form Data</li>
+                <li>Adding a Horizontal Rule with the HR tag</li>
+                <li>Using HTML Form EMAIL Input Type</li>
+                <li>HTML Input Tag Types</li>
+                <li>Quiz #9 - HTML Forms</li>
+            </ul>
+            </p>
+        </div><br /><br />
+
+        <!-- import components Invite your friends -->
+        <div class="bgInvite">
+            <div class="gift-box">
+                <img src="./../../assets/gift-box.png" alt="gift" width="70px">
+                <div style="margin-left: 10px;">
+                    <h4 style="text-transform: uppercase;">Invite your friends </h4><br>
+                    <p>Enroll for as many courses as you like for FREE with Leanghak Coder.</p>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <a style="color: #55ACEE;text-decoration: none;" href="./../../html/invite.html">
+                    <span>INVITE NOW</span>
+                    <span style="vertical-align: bottom;" class="material-icons">
+                        arrow_forward
+                    </span>
+                </a>
+            </div>
+        </div><br>
+
+        <!--import component Learners Reviews -->
+        <p class="title" style="text-transform: uppercase;">Learners Reviews</p><br>
+
+        <div class="row">
+            <div class="reviewCard-">
+                <div class="card" style="height: 235px;">
+                    <div class="background">
+                        <div class="desProfile">
+                            <img class="avatar"
+                                src="https://yt3.ggpht.com/FetajXS495liw1IE7PAVgLWBofkeByfnEvjk5pw1w1gsl89SoKsvHjZsA8oc4Mo1-5XV4bhdeM4jIw=s640-c-fcrop64=1,00002000ffffdfff-nd-v1"
+                                alt="avatar">
+                            <a href="https://www.facebook.com/profile.php?id=100046612111709&mibextid=LQQJ4d"
+                                target="_blank">
+                                <img class="faceIcon" src="./../../assets/face-icon.png" alt="facebook">
+                            </a>
+                            <div class="name">
+                                <h4 style="color: white;margin-top: -2px;"><b>Born Chhivlik</b></h4>
+                                <h4 style="color: #FFC107;margin-top: 11px;"><b>Web Development</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <p>Have new experience in coding and the teacher always helps to explain when we have a problem
+                            and
+                            the teacher is friendly and the teacher explains quickly Understand.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviewCard-">
+                <div class="card" style="height: 235px;">
+                    <div class="background">
+                        <div class="desProfile">
+                            <img class="avatar"
+                                src="https://yt3.ggpht.com/5qHfgEX416zMg9E_3MqMAg_KLnYZI1thjbA2yF-3LkXeNk-8BAxnS_thBBTsM4dCDmpZoccqJBlqPw=s640-c-fcrop64=1,00002000ffffdfff-nd-v1"
+                                alt="avatar">
+                            <a href="https://web.facebook.com/nh.lay.5070/" target="_blank">
+                                <img class="faceIcon" src="./../../assets/face-icon.png" alt="facebook">
+                            </a>
+                            <div class="name">
+                                <h4 style="color: white;margin-top: -2px;"><b>Lhon Englay</b></h4>
+                                <h4 style="color: #FFC107;margin-top: 11px;"><b>Web Development</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <p>Gaining limited knowledge in developing dream goals will be the first step I am taking to
+                            become
+                            a coder.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviewCard-">
+                <div class="card" style="height: 235px;">
+                    <div class="background">
+                        <div class="desProfile">
+                            <img class="avatar"
+                                src="https://yt3.ggpht.com/3VnygV1SdOLJn5Z7VROljoWHiu_XDvpiTz0uHa-ouzBE6MFno97jBakZaJLbdaAcAHB8gg3e8wLG=s640-c-fcrop64=1,00002000ffffdfff-nd-v1"
+                                alt="avatar">
+                            <a href="https://www.facebook.com/profile.php?id=100069076393277" target="_blank">
+                                <img class="faceIcon" src="./../../assets/face-icon.png" alt="facebook">
+                            </a>
+                            <div class="name">
+                                <h4 style="color: white;margin-top: -2px;"><b>Pheap Sopheak</b></h4>
+                                <h4 style="color: #FFC107;margin-top: 11px;"><b>Web Development</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <p>Getting new experience with code, knowing about code writing, gaining more knowledge, and
+                            getting good explanation and detail with lessons I recommend you learn with Leanghak Coder
+                            if you want new experience and more knowledge.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><br />
+
+        <!-- import component Related Courses -->
+        <p class="title" style="text-transform: uppercase;">Related Courses</p><br />
+
+
+        <div class="row">
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="./../../html/courses/html-fundamental.html">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>HTML Fundamental</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="./../../html/courses/html-fundamental.html">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="./../../html/courses/html-fundamental.html">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="responCard-">
+                <div class="card">
+                    <a style="text-decoration: none;" href="./../../html/courses/html-fundamental.html">
+                        <img class="image" src="./../../assets/posters/basic-web-development.jpg" alt="poster">
+                        <div class="container">
+                            <p class="colorText">Beginner</p><br>
+                            <h4 class="colorText"><b>Basic Web development</b></h4><br>
+                            <div class="center">
+                                <div style="margin-top: 3px;">
+                                    <span class="material-icons icon colorText">
+                                        star
+                                    </span>
+                                    <span class="star"> <b>4.8</b></span>
+                                </div>
+                                <p class="colorText" style="margin-top: 5px;">25 Learners</p>
+                                <p class="colorText" style="margin-top: 5px;">(6 Lessons)</p>
+                            </div><br>
+                            <div class="center">
+                                <span class="material-icons colorText">
+                                    bookmark
+                                </span>
+                                <p class="register">register</p>
+                            </div><br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div><br>
+
+    <!--component footer -->
+    <footer class="footer">
+        <p class="body"> &copy; Copyright 2023, Leanghak Coder. All Rights Reserved.</p>
+        <br>
+        <div>
+            <a style=" text-decoration: none;" href="https://www.linkedin.com/in/leanghak-seirey-41901a236/"
+                target="_blank">
+                <img src="./../../assets/linkedin.png" alt="linkedin" width="20px" height="20x">
+            </a>
+
+            <a style="margin-left: 20px; text-decoration: none;"
+                href="https://www.facebook.com/leanghakcoder?mibextid=ZbWKwL" target="_blank">
+                <img src="./../../assets/facebook.png" alt="facebook" width="20px" height="20x">
+            </a>
+            <a style=" text-decoration: none;margin-left: 20px;" href="https://t.me/leanghak_coder" target="_blank">
+                <img src="./../../assets/telegram.png" alt="telegram" width="20px" height="20x">
+            </a>
+
+            <a style="margin-left: 20px; text-decoration: none;" href="https://www.youtube.com/@Leanghak-Coder"
+                target="_blank">
+                <img src="./../../assets/youtube.png" alt="youtube" width="20px" height="20x">
+            </a>
+        </div>
+    </footer>
+
+    <!-- bnt go to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go To Top">
+        <span class="material-icons">
+            expand_less
+        </span>
+    </button>
+
+    <!-- import js go to HTML -->
+    <script src="./../../js/sidenav.js"></script>
+    <script src="./../../js/scrollBar.js"></script>
+    <script src="./../../js/accordion.js"></script>
+</body>
+
+</html>
