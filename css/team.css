@@ -11,3 +11,7 @@
     display: block;
     margin: 0 auto;
 }
+.container-card-student-team{
+    display: flex;
+    justify-content: center;
+}

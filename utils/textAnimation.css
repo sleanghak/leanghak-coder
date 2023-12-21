@@ -1,0 +1,18 @@
+/* style text animation  business-services */
+
+.text-animation {
+    position: relative;
+    animation-name: textAnimation;
+    animation-duration: 7s;
+}
+
+@keyframes textAnimation {
+    0% {
+        left: -100px;
+        opacity: 0.1;
+    }
+
+    25% {
+        left: 0px;
+    }
+}
